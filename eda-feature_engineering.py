@@ -15,7 +15,7 @@ df.head()
 
 # EDA
 def get_stats(dataframe):
-    return print("############### First 5 Line ############### \n", dataframe.head(), "\n", \
+    return("############### First 5 Line ############### \n", dataframe.head(), "\n", \
                  "############### Number of Values Owned ############### \n", dataframe.value_counts(), "\n", \
                  "############### Total Number of Observations ############### \n", dataframe.shape, "\n", \
                  "############### Variables Types ############### \n", dataframe.dtypes, "\n", \
